@@ -1,5 +1,6 @@
 {
-	"name": "pear/Net_FTP",
+	"name": "pear/net_ftp",
 	"description": "PEAR Net_FTP",
-	"minimum-stability": "dev"
+	"minimum-stability": "dev",
+	"include-path": [ "Net" ]
 }
