@@ -73,7 +73,7 @@ class Observer_ProgressUpload extends Net_FTP_Observer
      *
      * @return void
      */
-    function Observer_ProgressUpload(&$progress)
+    function __construct(&$progress)
     {
         /* Call the base class constructor. */
         parent::Net_FTP_Observer();
